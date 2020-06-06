@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CatApp</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+	<div class="hadding">
+		<h2><strong>challange 1 cat app</strong></h2>
+	</div>
+	<div class="felx-container1">
+		
+
+		<button class="btn btn-success" id="cat-genrator" onclick="loadCat()">Cat Ganrater</button>
+		<!-- <button class="btn btn-danger" onclick="delCats('box')">Delete cat</button> -->
+	</div>
+	<div class="flex-box-container1" id="box">
+		<!-- <img src="https://api.thecatapi.com/v1/images?api_key=75d8b206-3ce9-4a71-aea6-1c8c05313530
+
+"> -->	
+	</div>
+	<div class="hadding">
+    <h2>Challange 2 Rock, paper, Scissor</h2>
+    </div>
+    <div class="container-3">
+    	
+    	<div class="flex-box-rps" id="flex-box-rps-div">
+    		<img src="https://previews.123rf.com/images/laymul/laymul1909/laymul190900002/131636529-fist.jpg" id="rock" height=150 width=150 onclick="rpsGame(this)">
+    		<img src="https://previews.123rf.com/images/laymul/laymul1909/laymul190900003/131636534-hand.jpg" id="paper" height=150 width=150 onclick="rpsGame(this)">
+    		<img src="https://previews.123rf.com/images/laymul/laymul1908/laymul190800186/130811854-peace-sign.jpg" id="scissors" height=150 width=150 onclick="rpsGame(this)">
+
+    	</div>	
+    </div>
+    <template>
+    	<!-- <div class="container-3"> -->
+    	
+    	<div class="flex-box-rps" id="flex-box-rps-div">
+    		<img src="https://previews.123rf.com/images/laymul/laymul1909/laymul190900002/131636529-fist.jpg" id="rock" height=150 width=150 onclick="rpsGame(this)">
+    		<img src="https://previews.123rf.com/images/laymul/laymul1909/laymul190900003/131636534-hand.jpg" id="paper" height=150 width=150 onclick="rpsGame(this)">
+    		<img src="https://previews.123rf.com/images/laymul/laymul1908/laymul190800186/130811854-peace-sign.jpg" id="scissors" height=150 width=150 onclick="rpsGame(this)">
+
+    	</div>	
+    <!-- </div> -->
+    </template>
+    	
+    <!-- challenge 3 started -->
+    <div class="hadding">
+    <h2>Challange 3 Change the color of All buttons</h2>
+    </div>
+    <div class="container-4">
+    	<form action="">
+    	<select name="backdrop" id="background" onchange="buttonColorChange(this)" >
+    		<option value="random">Random</option>
+    		<option value="red">Red</option>
+    		<option value="green">Green</option>
+    		<option value="reset">Reset</option>
+
+    	</select>
+    </form>
+    	<button class="btn btn-primary">faceBook</button>
+    	<button class="btn btn-success">yahoo</button>
+    	<button class="btn btn-danger">Google</button>
+    	<button class="btn btn-warning">YouTube</button>
+       
+    </div>
+    
+
+</body>
+</html>
