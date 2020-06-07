@@ -3,7 +3,7 @@ function loadCat(){
 	// document.getElementById('box').style.display="inline";
 	var image = document.createElement('img');
 	var div = document.getElementById('box');
-	var link = document.createElement('button');
+	var link = document.createElement('div');
 	link.id="first"+c;
 	// document.getElementById(link.id).innerHTML+()
 	link.setAttribute('onclick',"del(this.id);");
